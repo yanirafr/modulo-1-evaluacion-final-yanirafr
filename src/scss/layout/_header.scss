@@ -28,10 +28,13 @@
     &__title {
       text-transform: uppercase;
       font-size: 42px;
+      font-family: $font-secondary;
+      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     }
     &__claim {
       font-size: 16px;
       margin-top: 10px;
+      font-family: $font-primary;
     }
   }
   &__scroll {
