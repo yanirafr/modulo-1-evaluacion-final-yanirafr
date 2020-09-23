@@ -9,6 +9,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  &__menu {
+    position: fixed;
+    left: 0;
+    height: 44px;
+    width: 44px;
+    background-color: $color-secondary;
+    &__icon {
+      height: 14px;
+      width: 16px;
+      margin: 15px 14px;
+    }
+  }
   &__text {
     color: $color-white;
     text-align: center;
@@ -17,14 +29,19 @@
       text-transform: uppercase;
       font-size: 42px;
     }
+    &__claim {
+      font-size: 16px;
+      margin-top: 10px;
+    }
   }
-  &__link {
+  &__scroll {
     height: 45px;
     width: 45px;
+    position: absolute;
     background-color: $color-white;
     border-radius: 50%;
-    transform: translateY(75vh);
-    &__img {
+    transform: translateY(80vh);
+    &__icon {
       width: 20px;
       margin: 18px 12px 0 13px;
     }
