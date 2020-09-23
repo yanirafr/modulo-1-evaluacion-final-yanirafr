@@ -36,12 +36,12 @@
       font-size: 20px;
       font-weight: 500;
       border-radius: 25px;
-      transition: ease 0.3s;
+      transition: ease 0.2s;
       &:hover {
         background-color: $color-primary;
         color: $color-white;
-        transform: scale(1.2);
-        box-shadow: 3px 3px 2px $color-primary-dark;
+        transform: scale(1.2) translateX(5px);
+        box-shadow: -3px 3px 2px $color-primary-dark;
       }
     }
   }
