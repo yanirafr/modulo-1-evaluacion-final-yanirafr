@@ -1,6 +1,35 @@
 .intro {
-  background-color: palegreen;
-  height: 376px;
-  display: flex;
-  flex-direction: column;
+  font-family: $font-primary;
+  &__title-tips {
+    margin-top: 30px;
+    color: $color-secondary-light;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  &__title-main {
+    font-family: $font-secondary;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  &__text {
+    color: $font-color-primary;
+    margin-top: 10px;
+  }
+  &__button {
+    height: 45px;
+    width: 76px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border: solid 2px $color-primary;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__link {
+      color: $color-primary;
+      padding: 15px 26px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
 }
