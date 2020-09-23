@@ -1,30 +1,5 @@
 @import "./core/reset";
-
-.header {
-  background-image: url("../images/cover.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.intro {
-  background-color: palegreen;
-  height: 376px;
-  display: flex;
-  flex-direction: column;
-}
-.reasons {
-  background-color: paleturquoise;
-  height: 624px;
-  display: grid;
-}
-.footer {
-  background-color: blue;
-  height: 465px;
-  display: flex;
-  flex-direction: column;
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
-}
+@import "./layout/header";
+@import "./layout/intro";
+@import "./layout/reasons";
+@import "./layout/footer";
