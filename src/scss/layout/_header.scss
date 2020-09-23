@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   &__text {
-    color: white;
+    color: $color-white;
     text-align: center;
     transform: translateY(50vh);
     &__title {
@@ -21,7 +21,7 @@
   &__link {
     height: 45px;
     width: 45px;
-    background-color: white;
+    background-color: $color-white;
     border-radius: 50%;
     transform: translateY(75vh);
     &__img {
