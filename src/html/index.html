@@ -1,79 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Anonymous Proxy</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title">Anonymous proxy</h1>
-      <p class="header__claim">In hac habitasse platea dictumst.</p>
-      <a href="" class="header__link">></a>
-    </header>
+    <include src="./partials/header.html"></include>
     <main class="main">
-      <section class="main__intro">
-        <h3 class="intro__title-tips">Insomnia tips</h3>
-        <h2 class="main__intro__title-main">Looking through a window</h2>
-        <p class="main__intro__text">
-          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
-          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
-        </p>
-        <a href="#" class="main__intro__link">Go</a>
-      </section>
-      <section class="main__reassons">
-        <h2 class="main__reassons__title">3 reasons to purchase</h2>
-        <ul class="main__reassons__list">
-          <li class="reassons__list__item">
-            <h3 class="reassons__list__title">Ut sed metus</h3>
-            <p class="reassons__list__text">
-              Lorem ipsum dolor sit amet, consecteur.
-            </p>
-          </li>
-
-          <li class="reassons__list__item">
-            <h3 class="reassons__list__title">Curabitur ac erat</h3>
-            <p class="reassons__list__text">
-              Mauris mattis urna quis lorem molestie.
-            </p>
-          </li>
-
-          <li class="reassons__list__item">
-            <h3 class="reassons__list__title">Morbi dictum</h3>
-            <p class="reassons__list__text">
-              Aliquam in dolor et dolor tincidunt.
-            </p>
-          </li>
-        </ul>
-        <a href="#" class="main__reassons__link">More reasons</a>
-      </section>
+      <include src="./partials/intro.html"></include>
+      <include src="./partials/reasons.html"></include>
     </main>
-    <footer class="footer">
-      <a href="#" class="footer__pointer">></a>
-      <ul class="footer__links">
-        <li class="footer__links__item"><a href="#" class="">Articles</a></li>
-        <li class="footer__links__item"><a href="#" class="">Books</a></li>
-        <li class="footer__links__item"><a href="#" class="">Events</a></li>
-        <li class="footer__links__item"><a href="#" class="">Reasons</a></li>
-        <li class="footer__links__item"><a href="#" class="">Tips</a></li>
-      </ul>
-      <ul class="footer__links">
-        <li class="footer__links__item"><a href="#" class="">Twitter</a></li>
-        <li class="footer__links__item"><a href="#" class="">Instagram</a></li>
-        <li class="footer__links__item">
-          <a href="#" class="">mastodon.social</a>
-        </li>
-      </ul>
-      <small class="footer__trademark">
-        <div class="footer__trademark__date">©2017</div>
-        <div class="footer__trademark__name">we ❤︎ components</div>
-      </small>
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
