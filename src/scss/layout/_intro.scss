@@ -25,11 +25,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     &__link {
       color: $color-primary;
-      padding: 15px 26px;
+      padding: 10px 26px;
       font-size: 20px;
       font-weight: 500;
+      border-radius: 25px;
+      &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+        transform: scale(1.2);
+        box-shadow: 3px 3px 2px $color-primary-dark;
+      }
     }
   }
 }
