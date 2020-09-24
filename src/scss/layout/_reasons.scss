@@ -1,5 +1,5 @@
 .reasons {
-  background-color: $color-secondary-light;
+  background-color: $color-secondary-pale;
   text-align: center;
   &__column {
     height: 624px;
@@ -7,14 +7,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: 90px 1fr 1fr 1fr 105px;
     .reasons__title {
-      grid-column: span 1;
       padding-top: 30px;
       font-family: $font-secondary;
-      font-size: 24px;
       text-transform: capitalize;
     }
     .reasons__item {
-      grid-column: span 1;
       margin: 0 55px;
       padding-top: 15px;
       font-size: 18px;
