@@ -1,5 +1,5 @@
 .reasons {
-  background-color: paleturquoise;
+  background-color: $color-secondary-light;
   text-align: center;
   &__column {
     height: 624px;
@@ -8,14 +8,22 @@
     grid-template-rows: 90px 1fr 1fr 1fr 105px;
     .reasons__title {
       grid-column: span 1;
-      background-color: yellow;
+      padding-top: 30px;
+      font-family: $font-secondary;
+      font-size: 24px;
+      text-transform: capitalize;
     }
     .reasons__item {
-      background-color: yellowgreen;
       grid-column: span 1;
       margin: 0 55px;
-      &.tip1 {
-        padding-top: 15px;
+      padding-top: 15px;
+      font-size: 18px;
+      line-height: 1.67;
+      &__title {
+        font-family: $font-secondary;
+      }
+      &__text {
+        font-family: $font-primary;
       }
     }
     .reasons__link {
