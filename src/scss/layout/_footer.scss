@@ -18,9 +18,7 @@
     position: absolute;
     top: -22.5px;
     transform: translateX(-50%);
-    animation-name: arrow;
-    animation-duration: 0.2s;
-    animation-iteration-count: 3;
+    animation: arrow ease 0.2s 3 5s;
     &__icon {
       margin: 10px auto;
     }
