@@ -35,6 +35,9 @@
       flex-direction: row;
       justify-content: space-between;
     }
+    @media (min-width: 1200px) {
+      margin: 0 370px;
+    }
 
     .footer__menu {
       line-height: 1.88;
@@ -62,6 +65,7 @@
     .footer__trademark {
       font-size: 14px;
       line-height: 2.14;
+      text-transform: lowercase;
       @media (min-width: 768px) {
         order: -1;
         width: 210px;
