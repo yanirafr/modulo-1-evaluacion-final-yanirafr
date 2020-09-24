@@ -5,46 +5,72 @@
   color: $color-white;
   text-align: center;
   position: relative;
+  @media (min-width: 768px) {
+    height: 240px;
+  }
+  &__scroll {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 2px 4px 0 $color-black;
+    background-color: $color-white;
+    border-radius: 22.5px;
+    position: absolute;
+    top: -22.5px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: arrow ease 0.2s 3 5s;
+    @media (min-width: 768px) {
+      right: 50%;
+    }
+    &__icon {
+      margin: 10px auto;
+    }
+  }
   &__column {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     @media (min-width: 768px) {
+      text-align: left;
       flex-direction: row;
+      justify-content: space-between;
     }
-    .footer__scroll {
-      width: 45px;
-      height: 45px;
-      box-shadow: 0 2px 4px 0 $color-black;
-      background-color: $color-white;
-      border-radius: 22.5px;
-      position: absolute;
-      top: -22.5px;
-      animation: arrow ease 0.2s 3 5s;
-      &__icon {
-        margin: 10px auto;
-      }
-    }
+
     .footer__menu {
       line-height: 1.88;
       text-transform: uppercase;
+      @media (min-width: 768px) {
+        width: 210px;
+      }
       &__link {
         color: $color-white;
         padding: 10px;
       }
       &.menu1 {
         padding-top: 60px;
+        @media (min-width: 768px) {
+          padding-top: 45px;
+        }
       }
       &.menu2 {
-        margin-top: 30px;
+        padding-top: 30px;
+        @media (min-width: 768px) {
+          padding-top: 45px;
+        }
       }
     }
     .footer__trademark {
       font-size: 14px;
       line-height: 2.14;
+      @media (min-width: 768px) {
+        order: -1;
+        width: 210px;
+      }
       &__date {
-        margin-top: 30px;
+        padding-top: 30px;
+        @media (min-width: 768px) {
+          padding-top: 45px;
+        }
       }
       &__icon {
         color: $color-primary;
