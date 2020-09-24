@@ -12,11 +12,8 @@
     position: fixed;
     left: 0;
     height: 44px;
-    width: 44px;
     background-color: $color-secondary;
     &__icon {
-      height: 14px;
-      width: 16px;
       margin: 15px 14px;
     }
   }
@@ -54,7 +51,6 @@
   }
   &__scroll {
     height: 45px;
-    width: 45px;
     position: absolute;
     background-color: $color-white;
     border-radius: 50%;
