@@ -29,8 +29,10 @@
       font-size: 42px;
       font-family: $font-secondary;
       text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+      width: 290px;
       @media (min-width: 768px) {
         font-size: 80px;
+        width: 690px;
       }
       @media (min-width: 1200px) {
         font-size: 100px;
@@ -56,7 +58,10 @@
     position: absolute;
     background-color: $color-white;
     border-radius: 50%;
-    transform: translateY(80vh);
+    transform: translateY(83vh);
+    @media (min-width: 768px) {
+      transform: translateY(88vh);
+    }
     @media (min-width: 1200px) {
       transform: translateY(92vh);
     }
