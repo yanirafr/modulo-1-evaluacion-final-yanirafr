@@ -1,9 +1,23 @@
 .footer {
   background-color: blue;
   height: 465px;
+  text-align: center;
+  position: relative;
   display: flex;
   flex-direction: column;
-  @media (min-width: 768px) {
-    flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &__scroll {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 2px 4px 0 $color-black;
+    background-color: $color-white;
+    border-radius: 22.5px;
+    position: absolute;
+    top: -22.5px;
+    transform: translateX(-50%);
+    &__icon {
+      margin: 10px auto;
+    }
   }
 }
