@@ -19,9 +19,6 @@
     left: 50%;
     transform: translate(-50%);
     animation: arrow ease 0.2s 3 5s;
-    @media (min-width: 768px) {
-      right: 50%;
-    }
     &__icon {
       margin: 10px auto;
     }
@@ -47,7 +44,7 @@
       }
       &__link {
         color: $color-white;
-        padding: 10px;
+        padding: 5px;
       }
       &.menu1 {
         padding-top: 60px;
@@ -74,6 +71,14 @@
         padding-top: 30px;
         @media (min-width: 768px) {
           padding-top: 45px;
+        }
+      }
+      &__name {
+        @media (min-width: 768px) {
+          transform: translateY(-5px);
+        }
+        @media (min-width: 1200px) {
+          transform: translateY(0);
         }
       }
       &__icon {
