@@ -1,5 +1,25 @@
 .reasons {
   background-color: paleturquoise;
-  height: 624px;
-  display: grid;
+  text-align: center;
+  &__column {
+    height: 624px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 1fr 1fr 1fr 105px;
+    .reasons__title {
+      grid-column: span 1;
+      background-color: yellow;
+    }
+    .reasons__item {
+      background-color: yellowgreen;
+      grid-column: span 1;
+      margin: 0 55px;
+      &.tip1 {
+        padding-top: 15px;
+      }
+    }
+    .reasons__link {
+      background-color: orange;
+    }
+  }
 }

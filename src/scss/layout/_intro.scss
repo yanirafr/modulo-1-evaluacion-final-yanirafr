@@ -1,21 +1,24 @@
 .intro {
   font-family: $font-primary;
-  &__title-tips {
+  &__title {
     margin-top: 30px;
     color: $color-secondary-light;
     font-size: 14px;
     font-weight: normal;
     text-transform: capitalize;
   }
-  &__title-main {
-    font-family: $font-secondary;
-    font-size: 24px;
-    text-transform: capitalize;
+  &__tip {
+    &__title {
+      font-family: $font-secondary;
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+    &__text {
+      color: $font-color-primary;
+      margin-top: 10px;
+    }
   }
-  &__text {
-    color: $font-color-primary;
-    margin-top: 10px;
-  }
+
   &__button {
     height: 45px;
     width: 76px;
