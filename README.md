@@ -4,7 +4,7 @@
 
 This is the page I made for the final evaluation of the Html and CSS module in Adalab. We were given a design on Zeplin that we were to emulate as best as we could.
 
-**Requirements asked**
+**Requirements:**
 
 1. Fixed hamburguer button top left of the screen. This has to be a link to Adalab front page.
 2. Anonnymous proxy module had to be fullscreen size.
@@ -18,4 +18,4 @@ This is the page I made for the final evaluation of the Html and CSS module in A
 3. "Go" & "More Reasons" buttons transition on hover.
 4. **BONUS** Footer arrow animation.
 
-Task completed on 09/24/2020
+> Task completed on 09/24/2020
