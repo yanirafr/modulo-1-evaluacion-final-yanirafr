@@ -1,21 +1,50 @@
 .intro {
   font-family: $font-primary;
+  @media (min-width: 1200px) {
+    width: 730px;
+    margin: 0 auto;
+  }
   &__title {
     margin-top: 30px;
     color: $color-secondary-light;
     font-size: 14px;
+    line-height: 2.14;
     font-weight: normal;
     text-transform: capitalize;
+    @media (min-width: 1200px) {
+      margin-top: 60px;
+      font-size: 16px;
+      line-height: 1.88;
+    }
   }
   &__tip {
     &__title {
       font-family: $font-secondary;
       font-size: 24px;
+      line-height: 1.25;
       text-transform: capitalize;
+      @media (min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.73;
+      }
+      @media (min-width: 1200px) {
+        font-size: 32px;
+        line-height: 1.41;
+      }
     }
     &__text {
       color: $font-color-primary;
       margin-top: 10px;
+      font-size: 18px;
+      line-height: 1.67;
+      @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      @media (min-width: 1200px) {
+        margin-top: 30px;
+        font-size: 20px;
+      }
     }
   }
 
@@ -31,6 +60,10 @@
     justify-content: center;
     @media (min-width: 768px) {
       margin-bottom: 60px;
+      width: 91px;
+    }
+    @media (min-width: 1200px) {
+      width: 160px;
     }
     &:hover {
       border: none;
@@ -41,8 +74,14 @@
       padding: 10px 26px;
       font-size: 20px;
       font-weight: 500;
-      border-radius: 25px;
+      border-radius: 22.5px;
       transition: ease 0.2s;
+      @media (min-width: 768px) {
+        padding: 10px 33px;
+      }
+      @media (min-width: 1200px) {
+        padding: 10px 67px;
+      }
       &:hover {
         background-color: $color-primary;
         color: $color-white;
