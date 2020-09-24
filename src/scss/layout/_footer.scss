@@ -18,6 +18,9 @@
     position: absolute;
     top: -22.5px;
     transform: translateX(-50%);
+    animation-name: arrow;
+    animation-duration: 0.2s;
+    animation-iteration-count: 3;
     &__icon {
       margin: 10px auto;
     }

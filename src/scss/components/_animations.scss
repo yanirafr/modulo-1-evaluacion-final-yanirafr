@@ -1,0 +1,11 @@
+@keyframes arrow {
+  from {
+    transform: translateX(-50%) rotate(25deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(-25deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(25deg);
+  }
+}
