@@ -83,8 +83,12 @@
       align-items: center;
       transition: ease 0.2s;
       @media (min-width: 786px) {
+        width: 210px;
         grid-column: 1/4;
         grid-row: 3/4;
+      }
+      @media (min-width: 786px) {
+        width: 255px;
       }
       &:hover {
         transform: scale(1.2);
