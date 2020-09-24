@@ -1,6 +1,8 @@
 .footer {
-  background-color: blue;
+  background-color: $color-secondary-dark;
   height: 465px;
+  font-family: $font-primary;
+  color: $color-white;
   text-align: center;
   position: relative;
   display: flex;
@@ -18,6 +20,30 @@
     transform: translateX(-50%);
     &__icon {
       margin: 10px auto;
+    }
+  }
+  &__menu {
+    font-size: 16px;
+    line-height: 1.88;
+    text-transform: uppercase;
+    &__link {
+      color: $color-white;
+    }
+    &.menu1 {
+      margin-top: 60px;
+    }
+    &.menu2 {
+      margin-top: 30px;
+    }
+  }
+  &__trademark {
+    font-size: 14px;
+    line-height: 2.14;
+    &__date {
+      margin-top: 30px;
+    }
+    &__icon {
+      color: $color-primary;
     }
   }
 }
