@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 90px 1fr 1fr 1fr 105px;
-    @media (min-width: 786px) {
+    @media (min-width: 768px) {
       height: 397px;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 75px 1fr 105px;
@@ -19,7 +19,7 @@
       padding-top: 30px;
       font-family: $font-secondary;
       text-transform: capitalize;
-      @media (min-width: 786px) {
+      @media (min-width: 768px) {
         grid-column: 1/4;
         grid-row: 1/2;
         font-size: 26px;
@@ -34,7 +34,7 @@
       padding-top: 15px;
       font-size: 18px;
       line-height: 1.67;
-      @media (min-width: 786px) {
+      @media (min-width: 768px) {
         padding: 35px 5px 0 5px;
         font-size: 20px;
         margin: 0;
@@ -43,19 +43,19 @@
         padding: 35px 20px 0 20px;
       }
       &.tip1 {
-        @media (min-width: 786px) {
+        @media (min-width: 768px) {
           grid-column: 1/2;
           grid-row: 2/3;
         }
       }
       &.tip2 {
-        @media (min-width: 786px) {
+        @media (min-width: 768px) {
           grid-column: 2/3;
           grid-row: 2/3;
         }
       }
       &.tip3 {
-        @media (min-width: 786px) {
+        @media (min-width: 768px) {
           grid-column: 3/4;
           grid-row: 2/3;
         }
@@ -84,12 +84,12 @@
       justify-content: center;
       align-items: center;
       transition: ease 0.2s;
-      @media (min-width: 786px) {
+      @media (min-width: 768px) {
         width: 210px;
         grid-column: 1/4;
         grid-row: 3/4;
       }
-      @media (min-width: 786px) {
+      @media (min-width: 768px) {
         width: 255px;
       }
       &:hover {
