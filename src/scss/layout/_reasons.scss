@@ -18,16 +18,13 @@
     .reasons__title {
       padding-top: 30px;
       font-family: $font-secondary;
-      line-height: 1.25px;
       text-transform: capitalize;
       @media (min-width: 768px) {
-        line-height: 1.73px;
         grid-column: 1/4;
         grid-row: 1/2;
         font-size: 26px;
       }
       @media (min-width: 1200px) {
-        line-height: 1.41px;
         padding-top: 60px;
         font-size: 32px;
       }
@@ -67,14 +64,12 @@
         font-family: $font-secondary;
         @media (min-width: 768px) {
           font-size: 24px;
-          line-height: 1.25;
         }
       }
 
       &__text {
         font-family: $font-primary;
         @media (min-width: 768px) {
-          line-height: 1.5;
         }
       }
     }
