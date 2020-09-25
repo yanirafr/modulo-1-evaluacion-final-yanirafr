@@ -9,3 +9,32 @@
     transform: translateX(-50%) rotate(25deg);
   }
 }
+@keyframes arrow-loop {
+  from {
+    transform: translateX(-50%) rotate(40deg);
+  }
+  1% {
+    transform: translateX(-50%) rotate(-40deg);
+  }
+  2% {
+    transform: translateX(-50%) rotate(30deg);
+  }
+  3% {
+    transform: translateX(-50%) rotate(-30deg);
+  }
+  4% {
+    transform: translateX(-50%) rotate(20deg);
+  }
+  5% {
+    transform: translateX(-50%) rotate(-20deg);
+  }
+  6% {
+    transform: translateX(-50%) rotate(10deg);
+  }
+  7% {
+    transform: translateX(-50%) rotate(-10deg);
+  }
+  8% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+}

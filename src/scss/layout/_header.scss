@@ -25,7 +25,7 @@
       text-transform: uppercase;
       font-size: 42px;
       font-family: $font-secondary;
-      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+      text-shadow: 0 2px 3px $color-black-shadow;
       width: 290px;
       @media (min-width: 768px) {
         font-size: 80px;
